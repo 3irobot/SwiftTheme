@@ -78,6 +78,7 @@
 		1C8F0FD524F654E000004648 /* ThemeAnyPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8F0FD424F654E000004648 /* ThemeAnyPicker.swift */; };
 		28C56555C2CDD153B7082CC7 /* libPods-JsonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56CB27A67341172FF363A8B4 /* libPods-JsonDemo.a */; };
 		4D4A1E2C4393C7FA0F35401B /* libPods-PlistDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F49FBCCD673D55E76D872AA5 /* libPods-PlistDemo.a */; };
+		9779E0982BEB09BC00FC1CEC /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9779E0972BEB09BC00FC1CEC /* PrivacyInfo.xcprivacy */; };
 		A322D88D1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */; };
 		A34AD0521CF6A7A900B54F53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A34AD0511CF6A7A900B54F53 /* main.m */; };
 		A34AD0551CF6A7A900B54F53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A34AD0541CF6A7A900B54F53 /* AppDelegate.m */; };
@@ -303,6 +304,7 @@
 		417E8CF58D0A02C9ADB1FB59 /* Pods-PlistDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlistDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlistDemo/Pods-PlistDemo.release.xcconfig"; sourceTree = "<group>"; };
 		56CB27A67341172FF363A8B4 /* libPods-JsonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JsonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93F20E6BF028F63DFA7AB48C /* libPods-Demo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9779E0972BEB09BC00FC1CEC /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		A322D88C1E665CFC0039520F /* ThemeKeyboardAppearancePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeKeyboardAppearancePicker.swift; sourceTree = "<group>"; };
 		A34AD04E1CF6A7A900B54F53 /* OCDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A34AD0511CF6A7A900B54F53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -588,6 +590,7 @@
 		18D642AF1C53613400DADEC5 /* SwiftTheme */ = {
 			isa = PBXGroup;
 			children = (
+				9779E0972BEB09BC00FC1CEC /* PrivacyInfo.xcprivacy */,
 				18D642B01C53613400DADEC5 /* SwiftTheme.h */,
 				18D642B21C53613400DADEC5 /* Info.plist */,
 			);
@@ -1021,6 +1024,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9779E0982BEB09BC00FC1CEC /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

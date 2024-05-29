@@ -7,8 +7,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "Gesen" => "i@gesen.me" }
   s.source       = { :git => "https://github.com/wxxsw/SwiftTheme.git", :tag => s.version.to_s }
-  s.resources    = 'SwiftTheme/*.{png,bundle,xcprivacy}'
-
+  s.resource_bundles = {'SwiftTheme' => ['SwiftTheme/Privacyinfo.xcprivacy']}
   s.ios.deployment_target = "9.0"
   s.tvos.deployment_target = "9.0"
   s.requires_arc = true
